@@ -1,0 +1,229 @@
+/* https://www.betterup.com/hs-fs/hubfs/Blog%20Images/Building%20good%20habits/person-with-habit-symbols-around-them-building-good-habits.png?width=1999&name=person-with-habit-symbols-around-them-building-good-habits.png */
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-image: url('bgoverlay.png');
+  background-size: fit;
+  background-repeat: repeat;
+  background-position: center;
+  background-color: rgba(13, 1, 16, 0.999);
+  font-family: 'Share Tech', sans-serif;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+
+.apple101 {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  color: white;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(-45deg, #1f1137, #341d5c, #482980, #5d34a5);
+  background-size: 300% 300%;
+  animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+
+.mainbar p {
+  color: white;
+}
+
+.website_navigation {
+  font-size: 10.2px;
+  display: flex;
+  margin-left: 10%;
+  color: #666666;
+
+}
+
+.mainbar {
+  justify-content: space-between;
+  display: flex;
+}
+
+#navLink {
+  margin-right: 200px;
+  display: flex;
+  flex-direction: row;
+  font-size: 16px;
+}
+
+#home:hover {
+  background-color: #896FBC;
+}
+
+#about:hover {
+  background-color: #896FBC;
+}
+
+#contact:hover {
+  background-color: #896FBC;
+}
+
+
+#navLink>a {
+  margin-right: 140px;
+  padding-left: 100px;
+}
+
+#appleLogo {
+  padding-top: 3px;
+  height: 42px;
+  width: 42px;
+  margin-left: 10px;
+}
+
+.mainbar p {
+  margin-left: 25px;
+
+}
+
+.bigaboutus {
+  border: 1px solid white;
+  padding: 200px;
+  background-image: url('https://www.betterup.com/hs-fs/hubfs/Blog%20Images/Building%20good%20habits/person-with-habit-symbols-around-them-building-good-habits.png');
+  opacity: 0.85;
+}
+
+.aboutustext {
+  text-align: center;
+  font-size: 50px;
+  opacity: 1;
+  color: black;
+  font-weight: 1000;
+}
+
+.goals {
+  display: flex;
+  margin-top: 5%;
+}
+
+.motto {
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+#mtitle {
+  border: 1px solid white;
+  margin-left: 30%;
+  margin-right: 30%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  border-radius: 15px;
+  font-size: 30px;
+  background-color: #2b103d;
+}
+
+#mtext {
+  border: 1px solid white;
+  border-radius: 15px;
+  padding: 3%;
+  font-size: 20px;
+  margin-left: 3%;
+  margin-right: 3%;
+  background-color: purple;
+}
+
+.objective {
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+#otitle {
+  border: 1px solid white;
+  margin-left: 30%;
+  margin-right: 30%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  border-radius: 15px;
+  font-size: 30px;
+  background-color: #2b103d;
+}
+
+#otext {
+  border: 1px solid white;
+  border-radius: 15px;
+  padding: 3%;
+  font-size: 20px;
+  margin-left: 3%;
+  margin-right: 3%;
+  background-color: purple;
+}
+
+.team {
+  margin-top: 5%;
+}
+
+.teamtitle {
+  text-align: center;
+  margin-bottom: 3%;
+  border: 1px solid white;
+  border-radius: 10px;
+  font-size: 25px;
+  background-color: #2b103d;
+}
+
+.teampeeps {
+  display: flex;
+}
+
+.person1,
+.person2,
+.person3,
+.person4,
+.person5 {
+  text-align: center;
+  margin-left: 0.5%;
+  margin-right: 0.5%;
+  border: 1px solid white;
+  border-radius: 15px;
+  background-color: purple;
+
+}
+
+#nt1,
+#nt2,
+#nt3,
+#nt4,
+#nt5 {
+  border: 1px solid white;
+  margin-left: 20%;
+  margin-right: 20%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  background-color: #2b103d;
+  border-radius: 10px;
+}
+
+#nc1,
+#nc1,
+#nc1,
+#nc1 {
+    padding-left: 3%;
+  padding-right: 3%;
+}
